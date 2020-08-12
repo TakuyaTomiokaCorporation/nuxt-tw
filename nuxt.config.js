@@ -27,14 +27,13 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '~/assets/css/reset.css'},
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Timmana&display=swap'}
     ]
   },
   /*
   ** Global CSS
   */
-  css: [
+  css: [  
     '@/assets/css/reset.css',
   ],
   /*
