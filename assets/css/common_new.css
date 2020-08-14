@@ -1,0 +1,54 @@
+/* --------------
+ reset
+-------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+
+img {max-width:100% !important; height:auto;vertical-align: bottom; display: inline;}
+iframe {max-width:100% !important; border:0;}
+
+/* --------------
+ clearfix
+-------------- */
+div:after,ul:after,ol:after,dl:after,
+header:after,footer:after,
+nav:after,section:after,article:after {
+	content: ""; 
+	display: block;
+	clear: both;
+}
+
+section {margin: 0 0;}
+
+/* --------------
+ base
+-------------- */
+body {
+	/* width: 100%;
+	height: auto; */
+	color: #222;
+	font-family:'Noto Sans TC','Microsoft Yahei','PingHei' ,sans-serif;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1.2;
+}
+	
+/* link */
+a {
+	color: #000;
+	text-decoration: none;
+	word-break: break-all;
+}
+a:hover {
+	opacity: 0.6;
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	
+}
